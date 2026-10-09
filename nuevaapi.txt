@@ -1,0 +1,719 @@
+job search:
+
+GET https://jsearch.p.rapidapi.com/search-v2?query=developer%20jobs%20in%20chicago&num_pages=1&country=us&date_posted=all HTTP/1.1
+accept: application/json
+x-rapidapi-host: jsearch.p.rapidapi.com
+x-rapidapi-key: 2f9875031fmsh4bb9bbc74cd044ap10814bjsne57a1b5f9a51
+x-rapidapi-ua: RapidAPI-Playground
+
+{
+  "status": "OK",
+  "request_id": "74a786a4-141d-48a4-97ff-b1b9db777574",
+  "parameters": {
+    "query": "developer jobs in chicago",
+    "num_pages": 1,
+    "date_posted": "all",
+    "country": "us",
+    "language": "en"
+  },
+  "data": {
+    "jobs": [
+      {
+        "job_id": "T3l3VFdDakk1REZDZU5pcEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMUJzTVV3d1ltbEtMVzV0ZUUweGNtNUJkRUZNZDBOR2RYRlZRazR5WDJKbGJWWXlZamx4VFhGcVIxRnBjSFpRTFVsbFZVNWlaVFZJY2pKSFYwMXdaRTV6TkU1RmNUVXRhbGhUZERWbWRrSmtRa0ZFWDJwTVJuSXlXVmxhTld4bGNFRlZhbEJDYUdOSVMwNTViMnRaTkRoRFJ6QkdSR2hSY1hkcGEzbGlTVFJxWTE5NFVYZ1NGMUJ4TjBoaGNHcFhSRTlsTW1oMlkxQXdYMWhuTWxGSkdpSkJSSE55T1daVGJTMW9Va2RuYzBOcFpITnNWVlV0U25kNVZsTnNUelZFZEVKMw",
+        "job_title": "Full Stack developers / Lead Developer",
+        "employer_name": "Global Business Ser. 4u",
+        "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRz7XcQ62M9fya_J1XLJ9TJ4e4G4QgQa7zdQMLu&s=0",
+        "employer_website": null,
+        "job_publisher": "LinkedIn",
+        "job_employment_type": "Full-time",
+        "job_employment_types": [
+          "FULLTIME"
+        ],
+        "job_apply_link": "https://www.linkedin.com/jobs/view/full-stack-developers-lead-developer-at-global-business-ser-4u-4475160553",
+        "job_apply_is_direct": false,
+        "apply_options": [
+          {
+            "apply_link": "https://www.linkedin.com/jobs/view/full-stack-developers-lead-developer-at-global-business-ser-4u-4475160553",
+            "is_direct": false,
+            "publisher": "LinkedIn"
+          }
+        ],
+        "job_description": "Title : Full Stack Developer\n\nLocation : Chicago, IL ( Hybrid Position )\n\nContract-to-hire opportunity.\n\nMust live in the Chicago and be hybrid eligible\n\nDesired Skillet\n\n• Bachelors in computer science, Software Engineering or similar and 5 -7 years of product development experience.\n• Must be able to provide solutions that reflect understanding business objectives, voice needs of cross functional teams into the platform organization.\n• Strong organization and planning skills. Excellent verbal and written communication skills, strong interpersonal skills, and persistence when the need arises.\n• Knowledge and Understanding of Software Design Patterns.\n• Experience collaborating with virtual teams & multiple development centers.\n• Experience with Agile Development and Scrum methodologies\n• Must have at least 5+ years of hands-on experience in developing microservices using Spring (Java), Node JS , Kubernetes, Docker, AWS Lambda (Serverless)\n• At least 5 years of hands-on experience in scripting languages like Python and SPA frameworks (Vue, Node or React)\n• At least 5 years of hands-on experience in designing & implementing API’s using Open API specifications deployed on AWS Cloud.\n• Experience in implementing OAuth (Preferably using OKTA\n• Experience in developing Hybrid Mobile Apps using React/Vue and Capacitor as native bridge.\n\nNice To Have\n\n• Experience in Liferay DXP Platform.\n• Knowledge of IoT, Cloud (AWS), Hybrid Mobile App development and Cybersecurity technology will be an advantage.\n\nEssential Duties And Responsibilities\n\n• Drives technical integration by collaborating with cross functional teams to establish connectivity between other products and third-party software(s).\n• Implements business requirements by defining application interfaces based on needs identified and communicates specification with the cross functional team and integration partners.\n• Works with a cross-functional team to resolve conflicts and drives decision making by working closely with TL (Technical Leader) and architecture office.\n• Collaborates with Enterprise IT and operation teams for successful deployment and monitoring of software applications in the AWS cloud environment.\n• Participates in software development activities for web application design, web services, database design, platform upgrades etc.\n• Coordinates and drives execution of integration activities with the distributed global teams",
+        "job_is_remote": false,
+        "job_posted_at": "1 day ago",
+        "job_posted_at_timestamp": 1791331200,
+        "job_posted_at_datetime_utc": "2026-10-07T00:00:00.000Z",
+        "job_location": "Chicago, IL",
+        "job_city": "Chicago",
+        "job_state": "Illinois",
+        "job_country": "US",
+        "job_latitude": 41.88325,
+        "job_longitude": -87.6323879,
+        "job_benefits": null,
+        "job_benefits_strings": null,
+        "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DOywTWCjI5DFCeNipAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+        "job_salary": null,
+        "job_salary_string": null,
+        "job_min_salary": null,
+        "job_max_salary": null,
+        "job_salary_period": null,
+        "job_highlights": {},
+        "job_onet_soc": null,
+        "job_onet_job_zone": null,
+        "employer_reviews": null,
+        "job_uid": "OywTWCjI5DFCeNipAAAAAA=="
+      },
+      {
+        "job_id": "S3U2NTQyR2ZOdTByUmpDQ0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTbEZqWDJkNFptWmFURkZNVDJGRVJYVnlXVlZ0ZDBORmRYaHZZMnhGYUUxSWFWZzFjVWhOYTNOemMzZDJaSG8yWmpsTlUxVXpVREJJZUhReGVsTlRNMmQwYlVsVVVuUkdOMWd0ZDJwdGQxUjNPVFpaWkMxMVQyVjNhemt0WjFJemMwOVdjVVJ5WTFSYWJYUk9SRWhTTlhCcE4zWkdSRlZ0YkdkMVkzZE9TamRSY2swMlVYZ1NGMUJ4TjBoaGNHcFhSRTlsTW1oMlkxQXdYMWhuTWxGSkdpSkJSSE55T1daVGJrUkRXVE14TFUwMWFsZEdTM1pSZUhreGVGVXhWMnhVVDBOUg",
+        "job_title": "Software Developer Oracle (IT)",
+        "employer_name": "Apex Systems",
+        "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTNuiH4KWHv5k8H3C_-dtmkt4N1a-e3kayLDZi&s=0",
+        "employer_website": "https://www.apexsystems.com",
+        "job_publisher": "LinkedIn",
+        "job_employment_type": "Contractor",
+        "job_employment_types": [
+          "CONTRACTOR"
+        ],
+        "job_apply_link": "https://www.linkedin.com/jobs/view/software-developer-oracle-it-at-apex-systems-4476931825",
+        "job_apply_is_direct": false,
+        "apply_options": [
+          {
+            "apply_link": "https://www.linkedin.com/jobs/view/software-developer-oracle-it-at-apex-systems-4476931825",
+            "is_direct": false,
+            "publisher": "LinkedIn"
+          }
+        ],
+        "job_description": "Job#: 3054917\n\nJob Description:\n\nSoftware Developer Oracle (IT)\n\nLocation: Chicago, Illinois (Onsite)\n\nRole Overview\n\nWe are seeking an experienced Oracle Accounting Hub (AHCS) Technical SME to support the design, development, integration, and implementation of a strategic Accounting Rules Engine and Oracle Cloud Finance GL platform. The consultant will be responsible for end-to-end integration architecture, source data ingestion, data transformation, interface development, and reporting. This role provides the specialized Oracle expertise needed to accelerate implementation and reduce technical risks.\n\nKey Responsibilities\n\n• Design and implement end-to-end integration architecture supporting Oracle Accounting Hub and Oracle Fusion applications.\n• Lead technical design and development activities across Oracle Data Integrator (ODI), Oracle Integration Cloud (OIC), REST/SOAP APIs, XML/JSON, FBDI, SQL, PL/SQL, and Python.\n• Design and develop source data ingestion frameworks, source-to-target mappings, and transformation logic for AHCS.\n• Develop, validate, and support Accounting Hub inbound interfaces while onboarding multiple source systems.\n• Design and optimize accounting and reconciliation data models, developing complex transformations.\n• Troubleshoot interface failures, perform root cause analysis, and monitor integration performance.\n\n*Design and develop operational and financial reports using OTBI, BI Publisher, and Financial Data Intelligence (FDI).\n\n• Prepare technical design documents, interface specifications, and deployment guides.\n\nRequired Qualifications\n\n• 8+ years of Oracle Financials technical implementation experience.\n• 5+ years of hands-on Oracle Accounting Hub (AHCS) technical experience.\n• Experience with Oracle Cloud integration technologies and data architecture.\n• Proven experience designing and supporting Accounting Hub interfaces.\n• Expertise in ODI, OIC, REST/SOAP APIs, XML, JSON, FBDI, SQL, PL/SQL, and Python.\n• Experience developing and supporting large-scale enterprise integrations.\n• Strong troubleshooting and performance optimization skills.\n• Experience working with Finance, Accounting, and business stakeholders.\n\nPreferred Qualifications\n\n• Experience with Oracle Fusion ERP Cloud and Financials Cloud.\n• Banking or Financial Services industry experience.\n• Knowledge of accounting, reconciliation, and financial reporting processes.\n• Experience with cloud-based data warehouse and analytics solutions.\n• Understanding of audit, SOX, and regulatory compliance requirements.\n• Experience with Oracle Fusion General Ledger and DevOps practices.\n\nEverforth Apex is a world-class IT services company that serves thousands of clients across the globe. When you join Everforth Apex, you become part of a team that values innovation, collaboration, and continuous learning. We offer quality career resources, training, certifications, development opportunities, and a comprehensive benefits package. Our commitment to excellence is reflected in many awards, including ClearlyRateds Best of Staffing® in Talent Satisfaction in the United States and Great Place to Work® in the United Kingdom and Mexico.\n\nEverforth Apex uses a virtual recruiter as part of the application process. Click here for more details. By applying for this job, you agree to receive calls, AI-generated calls, text messages, or emails from Everforth Apex and its affiliates, and contracted partners. Frequency varies for text messages. Message and data rates may apply. Carriers are not liable for delayed or undelivered messages. You can reply STOP to cancel and HELP for help. You can access our privacy policy at https://www.apexsystems.com/privacy-policy\n\nEverforth Apex Benefits Overview: Everforth Apex offers a range of supplemental benefits, including medical, dental, vision, life, disability, and other insurance plans that offer an optional layer of financial protection. We offer an ESPP (employee stock purchase program) and a 401K program which allows you to contribute typically within 30 days of starting, with a company match after 12 months of tenure. Everforth Apex also offers a HSA (Health Savings Account on the HDHP plan), a SupportLinc Employee Assistance Program (EAP) with up to 8 free counseling sessions, a corporate discount savings program and other discounts. In terms of professional development, Everforth Apex hosts an on-demand training program, provides access to certification prep and a library of technical and leadership courses/books/seminars once you have 6+ months of tenure, and certification discounts and other perks to associations that include CompTIA and IIBA. Everforth Apex has a dedicated customer service team for our Consultants that can address questions around benefits and other resources, as well as a certified Career Coach. You can access a full list of our benefits, programs, support teams and resources within our ‘Welcome Packet’ as well, which an Everforth Apex team member can provide.\n\nEverforth Apex Systems is an equal opportunity employer. We do not discriminate or allow discrimination on the basis of race, color, religion, creed, sex (including pregnancy, childbirth, breastfeeding, or related medical conditions), age, sexual orientation, gender identity, national origin, ancestry, citizenship, genetic information, registered domestic partner status, marital status, disability, status as a crime victim, protected veteran status, political affiliation, union membership, or any other characteristic protected by law. Everforth Apex will consider qualified applicants with criminal histories in a manner consistent with the requirements of applicable law.\n\nIf you require an accommodation under the Americans with Disabilities Act to participate in an interview with a virtual recruiter or to use our website for a search or application, please contact our Benefits Department at [email protected] or 804-523-8228. Please note that this contact information is strictly to be used for medical ADA accommodations and that no other inquiries will be answered.\n\nUnitedHealthcare creates and publishes the Transparency in Coverage Machine-Readable Files on behalf of Everforth Apex Systems.\n\n© 2026 Everforth, Inc. All rights reserved.\n\nEverforth Apex Systems is part of the Commercial Segment of Everforth, Inc.\n\nNYSE: EFOR\n\n4400 Cox Road\n\nSuite 200\n\nGlen Allen, Virginia 23060\n\nEverforth Apex is an equal opportunity employer. We do not discriminate or allow discrimination on the basis of race, color, religion, creed, sex (including pregnancy, childbirth, breastfeeding, or related medical conditions), age, sexual orientation, gender identity, national origin, ancestry, citizenship, genetic information, registered domestic partner status, marital status, disability, status as a crime victim, protected veteran status, political affiliation, union membership, or any other characteristic protected by law. Everforth Apex will consider qualified applicants with criminal histories in a manner consistent with the requirements of applicable law. If you have visited our website in search of information on employment opportunities or to apply for a position, and you require an accommodation in using our website for a search or application, please contact our Benefits Department at [email protected] or 804-523-8228. (Do not submit resumes or solicit consultants to this email address). UnitedHealthcare creates and publishes the Transparency in Coverage Machine-Readable Files on behalf of Everforth Apex.",
+        "job_is_remote": false,
+        "job_posted_at": "16 hours ago",
+        "job_posted_at_timestamp": 1791410400,
+        "job_posted_at_datetime_utc": "2026-10-07T22:00:00.000Z",
+        "job_location": "Chicago, IL",
+        "job_city": "Chicago",
+        "job_state": "Illinois",
+        "job_country": "US",
+        "job_latitude": 41.88325,
+        "job_longitude": -87.6323879,
+        "job_benefits": [
+          "dental_coverage",
+          "health_insurance"
+        ],
+        "job_benefits_strings": [
+          "Dental insurance",
+          "Health insurance"
+        ],
+        "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DKu6542GfNu0rRjCCAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+        "job_salary": null,
+        "job_salary_string": "65–67 an hour",
+        "job_min_salary": 65,
+        "job_max_salary": 67,
+        "job_salary_period": "HOUR",
+        "job_highlights": {},
+        "job_onet_soc": null,
+        "job_onet_job_zone": null,
+        "employer_reviews": null,
+        "job_uid": "Ku6542GfNu0rRjCCAAAAAA=="
+      },
+      {
+        "job_id": "dF8tbUJxUndtWFJ6M0ZhR0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTVEZXYUhWT1ZGcG9kMVZpTTJKc2FETjFOVWxtYm1SNWVUZ3lRbWRhUmpRdFZscHRRM2RyZFUxelgxcFNjekoyWmxaa09WRm5iME5xT0ZkQmFESlZNVXRDVDIxbFNUQnRXRXRNYW5oR1UyWlViVUpwT0ZFMGIzbzBTazlKY0RoalJXWjNSbkptTUZsM1kwTkxTM1JpZUcxSVJuSkhXbUZmVVdOWFZsTjFOM0YyVFRWT1UwWVNGMUJ4TjBoaGNHcFhSRTlsTW1oMlkxQXdYMWhuTWxGSkdpSkJSSE55T1daVGNrSklTbkZqTjB0V1VrRmZWMnMzU1RWd04yazBOREZCTFdWQg",
+        "job_title": "C++ Software Developer - New Grad",
+        "employer_name": "Headlands Technologies LLC",
+        "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRCgJERMY34Blf5UkNPiK69OEw1DDCIbozW5tl-&s=0",
+        "employer_website": "https://www.headlandstech.com",
+        "job_publisher": "LinkedIn",
+        "job_employment_type": "Internship",
+        "job_employment_types": [
+          "INTERN"
+        ],
+        "job_apply_link": "https://www.linkedin.com/jobs/view/c%2B%2B-software-developer-new-grad-at-headlands-technologies-llc-4476310592",
+        "job_apply_is_direct": false,
+        "apply_options": [
+          {
+            "apply_link": "https://www.linkedin.com/jobs/view/c%2B%2B-software-developer-new-grad-at-headlands-technologies-llc-4476310592",
+            "is_direct": false,
+            "publisher": "LinkedIn"
+          }
+        ],
+        "job_description": "C++ Software Developer - New Grad Job Description for Headlands Tech\n\nLocations: Amsterdam; Chicago\n\nScope\n\nAs a software developer at Headlands Tech you will design, engineer and implement the Firm’s trading software in the C++ programming language. You will work in close collaboration with the research, systems, and operations teams to architect, implement and analyze new automated electronic trading algorithms. You will play a key role in designing and constructing the Firm’s software infrastructure to support new and existing lines of business. In addition, you will expand the Firm’s proprietary research platform to improve performance and support new exchanges, products and functionality.\n\nQualifications\n\n• Preferred degree in any computing related area (e.g., computer science, computer engineering, etc.)\n• In lieu of this, extensive professional software development experience\n• Well-versed in the fundamentals of software engineering\n• Genuine interest in solving technical problems, along with a strong ability to implement solutions\n• Low ego, able to work both in a collaborative team setting and autonomously\n• Committed to designing and implementing fully automated, scalable, and maintainable solutions with extensive testing\n• Superior ability to write in C++, or experience with other statically-typed imperative programming language\n• Comfortable operating at various different levels of abstraction, from individual machines to large scale distributed systems\n• Strong knowledge of the details of computing all throughout the technical stack\n• Knowledge of Linux a plus\n• Experience in the trading industry preferred but not mandatory\n\nDay To Day\n\nThis isn't an exhaustive list, but represents a selection of the types of tasks that software developers at Headlands Tech take on while developing and maintaining a large scale 24 hour automated trading system.\n\n• Build, maintain, and improve exchange connectivity\n• Leverage existing infrastructure, extending functionality where necessary\n• Build a deep understanding of exchange behavior to integrate into our existing trading system\n• Maintain and extend core research infrastructure\n• Design, implement, and maintain distributed storage systems with various different performance and reliability requirements\n• Address performance limitations within our own software, open source libraries and applications, Linux, etc.\n• Investigate new technologies to improve stability, scalability, and performance\n• Implement new trading strategies in collaboration with research and operations teams\n• Extend strategy framework to enable new behaviors and improve existing ones\n• Investigate signal issues for trading system\n• Reconcile differences between trading strategies performance in simulation versus production\n• Investigate production trading issues in collaboration with operations, systems, and research teams\n• Optimize the performance of the live trading system\n• Measure latency and throughput through microbenchmarks, profiling, tracing, etc.\n• Optimize existing code using lock free data structures, compiler intrinsics, etc.\n• Develop new algorithms to address performance limitations at a higher abstraction layer\n• Rearchitect components of the trading system to eliminate bottlenecks\n• Fundamental network programming\n• Implement low level networking protocols\n• Investigate network captures to understand latency and behavior of both exchange and internal communication\n• Ensure the continued stability and reliability of the trading system\n• Build monitoring systems for trading strategies and all other pieces of our infrastructure\n• Conduct code reviews of other developers, researchers and operations team members\n\nWe are proud to be an equal opportunity workplace and to provide employees with a work environment free of discrimination and harassment. All employment decisions at Headlands Tech are based on business needs, job requirements and individual qualifications, without regard to race, color, religion or belief, national origin, sex, sexual orientation, gender identity/expression, age, status as a protected veteran, status as an individual with a disability, or any other applicable legally protected characteristics. Headlands Tech will not tolerate discrimination or harassment based on any of these characteristics.\n\nBy completing this application you agree to our GDPR and Privacy Policies.",
+        "job_is_remote": false,
+        "job_posted_at": "2 days ago",
+        "job_posted_at_timestamp": 1791244800,
+        "job_posted_at_datetime_utc": "2026-10-06T00:00:00.000Z",
+        "job_location": "Chicago, IL",
+        "job_city": "Chicago",
+        "job_state": "Illinois",
+        "job_country": "US",
+        "job_latitude": 41.88325,
+        "job_longitude": -87.6323879,
+        "job_benefits": null,
+        "job_benefits_strings": null,
+        "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3Dt_-mBqRwmXRz3FaGAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+        "job_salary": null,
+        "job_salary_string": null,
+        "job_min_salary": null,
+        "job_max_salary": null,
+        "job_salary_period": null,
+        "job_highlights": {},
+        "job_onet_soc": null,
+        "job_onet_job_zone": null,
+        "employer_reviews": null,
+        "job_uid": "t_-mBqRwmXRz3FaGAAAAAA=="
+      },
+      {
+        "job_id": "MjBRUlpnNDJ2NkFfSkVDUEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUSGhXTUhWNmREQXlVekJIU1d4NFEwMVVkVEF0UWxwRGJ6ZHVNRkZ3Tkc1c1RFb3pYekpRZFdka1UwVkZlRkE0UlVwa2VrcGxZVFJEWkd4elgwdHBNbEJ1YUdSWGFtdFJkVU5SZVhkck5rUmtaMVJyUnpKSWRtMHdZbUpHV1c5Q1MwSlROMUZYYmpGVlJqVnROak5oYWt0NlluRlNZM0Z6TTNSR1VVdGhORUY1VUZGTlNFa1NGMUJ4TjBoaGNHcFhSRTlsTW1oMlkxQXdYMWhuTWxGSkdpSkJSSE55T1daUlZYQmxaRGxpTVZWdWNtNTFObUZ6YjFsWGFGWm1YMUUyYkd4Mw",
+        "job_title": "Sr. Salesforce Developer",
+        "employer_name": "United Airlines",
+        "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://united.com&size=128",
+        "employer_website": "https://www.united.com",
+        "job_publisher": "Careers At United Airlines",
+        "job_employment_type": "Full-time",
+        "job_employment_types": [
+          "FULLTIME"
+        ],
+        "job_apply_link": "https://careers.united.com/us/en/job/WHQ00026807/Sr-Salesforce-Developer",
+        "job_apply_is_direct": false,
+        "apply_options": [
+          {
+            "apply_link": "https://careers.united.com/us/en/job/WHQ00026807/Sr-Salesforce-Developer",
+            "is_direct": false,
+            "publisher": "Careers At United Airlines"
+          }
+        ],
+        "job_description": "Achieving our goals starts with supporting yours. Grow your career, access top-tier health and wellness benefits, build lasting connections with your team and our customers, and travel the world using our extensive route network.\n\nCome join us to create what’s next. Let’s define tomorrow, together.\n\nDescription\n\nWe have a wide variety of career opportunities around the world - come find yours.\n\nThe United IT team designs, develops, and maintains highly scalable technology solutions brought to life through innovative architectures, data analytics, and digital solutions.\n\nJob Overview and Responsibilities\n\nThe Salesforce Tech Lead is a hands-on technical lead responsible for designing, building, and supporting scalable Salesforce solutions across enterprise applications.\n\nThis role partners with business stakeholders, product owners, architects, and distributed development teams to translate business needs into secure, maintainable technical solutions.\n\nThe ideal candidate can independently lead complex initiatives, guide other developers, balance multiple priorities, and ensure high-quality delivery from requirements through production support.\n\nKey Responsibilities\n\n• Own end-to-end Salesforce solution delivery, from technical design and development through testing, deployment, production validation, and support.\n\n• Serve as a hands-on technical lead, building complex Salesforce functionality while guiding other developers.\n\n• Design and implement scalable solutions using Apex, Lightning Web Components, Salesforce Flow, SOQL/SOSL, platform APIs, and related Salesforce capabilities.\n\n• Partner with business stakeholders, product owners, analysts, architects, and technology teams to clarify requirements and recommend practical Salesforce solutions.\n\n• Translate business requirements into technical designs, estimates, integration approaches, and implementation plans.\n\n• Coordinate onshore and offshore developers through design guidance, code reviews, dependency management, and technical issue resolution.\n\n• Lead technical delivery across multiple Salesforce projects, enhancements, defects, technical debt, and production-support priorities.\n\n• Participate in design reviews, code reviews, architecture discussions, estimation, release planning, and production-readiness activities.\n\n• Promote Salesforce engineering best practices for reusable architecture, secure coding, performance, testing, logging, and maintainability.\n\n• Develop enterprise-grade Apex, including services, triggers, asynchronous processing, batch jobs, scheduled jobs, and reusable frameworks.\n\n• Build responsive, reusable Lightning Web Components using JavaScript, HTML, CSS, Lightning Data Service, and Salesforce Lightning Design System.\n\n• Use Salesforce Flow and Apex appropriately to deliver automation that is scalable, supportable, and aligned to platform best practices.\n\n• Design and implement integrations using Salesforce APIs, Platform Events, Change Data Capture, middleware, and appropriate integration patterns.\n\n• Apply secure integration patterns using OAuth, Named Credentials, and appropriate authentication and authorization approaches.\n\n• Design solutions with strong awareness of Salesforce limits, transaction boundaries, large data volumes, performance, scalability, and resiliency.",
+        "job_is_remote": false,
+        "job_posted_at": "3 days ago",
+        "job_posted_at_timestamp": 1791158400,
+        "job_posted_at_datetime_utc": "2026-10-05T00:00:00.000Z",
+        "job_location": "Chicago, IL",
+        "job_city": "Chicago",
+        "job_state": "Illinois",
+        "job_country": "US",
+        "job_latitude": 41.88325,
+        "job_longitude": -87.6323879,
+        "job_benefits": null,
+        "job_benefits_strings": null,
+        "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D20QRZg42v6A_JECPAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+        "job_salary": null,
+        "job_salary_string": null,
+        "job_min_salary": null,
+        "job_max_salary": null,
+        "job_salary_period": null,
+        "job_highlights": {},
+        "job_onet_soc": null,
+        "job_onet_job_zone": null,
+        "employer_reviews": null,
+        "job_uid": "20QRZg42v6A_JECPAAAAAA=="
+      },
+      {
+        "job_id": "RnVfYkw2OUwxTm1fYV9oc0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTakZ0Y0ZaSGJscHBWbFpLZFdJM1dqUldiMGRaWmpKVGJUbExPVmhDUkVWdGQzWnJTMFJIYzFkV01GTTFNVzFOZVhSUmFIbEJhVkZsUzBkNVFYaHZhbmhoWmsxaU5reFpNWHBUVmxadmJraHZXbWxKZGxCUVFXOW1jbXRJUzJGSlQwMXhSMjFTZW5kb1JIVmtWM0Y0TkZKdFgzVm1VWEJmYlVkUVZYWktkSGxVTjIxRlgyOFNGMUJ4TjBoaGNHcFhSRTlsTW1oMlkxQXdYMWhuTWxGSkdpSkJSSE55T1daVVVtUmZOM05VTlRKVFRXeGhZbWMwVmxSM1lXWk9aMnhrT1V4Ug",
+        "job_title": "Sr. Software Developer",
+        "employer_name": "Therapy Brands Thrive, LLC",
+        "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuauP6nqjFMmWz-b0MJQU-Mf0TVzmxeruhA4ja&s=0",
+        "employer_website": null,
+        "job_publisher": "Indeed",
+        "job_employment_type": "Full-time",
+        "job_employment_types": [
+          "FULLTIME"
+        ],
+        "job_apply_link": "https://www.indeed.com/viewjob?jk=2090bb9261592361",
+        "job_apply_is_direct": false,
+        "apply_options": [
+          {
+            "apply_link": "https://www.indeed.com/viewjob?jk=2090bb9261592361",
+            "is_direct": false,
+            "publisher": "Indeed"
+          }
+        ],
+        "job_description": "Ensora Health is the leading provider of software and services for mental and behavioral health therapists, trusted by over 200,000 individual providers and more than 28,000 practices. Our unmatched expertise, partnership, and breadth of products allow us to fine-tune solutions that meet the specific needs of everyone from solo practitioners to larger practices. With AI-enabled solutions that span practice management to electronic medical records and e-prescribing to billing, we help eliminate administrative complexity and create harmony between therapists, their clients, and the whole healthcare community.\n\nJob Description\nWe are actively seeking a Senior Software Developer to join our dynamic team. This pivotal role revolves around the creation of information systems, involving a deep dive into operational analysis, software design and development, and software team support. We're on the lookout for individuals with a strong aptitude for Object-Oriented Programming and a knack for crafting software solutions that transcend specific technologies.\nWe are seeking a highly skilled Senior Software Developer with strong expertise in .NET, C#, and MongoDB to design, develop, and maintain robust enterprise applications. The ideal candidate will have deep experience building scalable and resilient applications leveraging both NoSQL and relational databases, integrating APIs, and optimizing database performance. This position will be an integral part of a highly focused team building a robust practice management solution for mental health providers.\n\nWhat You'll Do\n\n• Design, develop, test, and deploy enterprise applications using .NET (Core and Framework) and C#.\n\n• Build scalable, resilient, and high-performing solutions that support mission-critical healthcare workflows.\n\n• Partner with product managers, architects, and engineering peers to define and deliver innovative product capabilities.\n\n• Drive technical design discussions and contribute to architectural decisions that support long-term platform growth and scalability.\n\n• Design and optimize MongoDB data models, indexing strategies, and performance tuning solutions.\n\n• Champion engineering best practices, including clean code principles, automated testing, code reviews, and CI/CD excellence.\n\n• Collaborate within an Agile environment to rapidly deliver customer-focused enhancements and features.\n\n• Integrate third-party applications, APIs, and internal microservices to create seamless user experiences.\n\n• Proactively identify opportunities to modernize systems, reduce technical debt, and improve overall platform performance and reliability.\n\n• Leverage modern engineering tools, including AI-assisted development capabilities, to increase efficiency, code quality, and innovation.\n\n• Troubleshoot complex production issues, perform root cause analysis, and implement scalable long-term solutions.\n\n• Mentor junior engineers, share technical expertise, and foster a culture of continuous learning and improvement.\n\n• Contribute to the evolution of engineering standards, development frameworks, and architectural best practices across the organization.\n\nWhat You Bring\n\nRequired Qualifications\n\n• Bachelor's degree in Computer Science, Engineering, or a related field, or equivalent practical experience.\n\n• 8+ years of professional software development experience with a strong focus on .NET technologies.\n\n• Deep expertise in C# and .NET application development.\n\n• Strong experience working with MongoDB, including schema design, indexing, query optimization, and performance tuning.\n\n• Experience designing scalable, distributed, and maintainable enterprise applications.\n\n• Solid understanding of Object-Oriented Programming (OOP), SOLID principles, and modern software design patterns.\n\n• Experience working with Git, source control best practices, and CI/CD pipelines.\n\n• Strong analytical, troubleshooting, and problem-solving skills.\n\n• Ability to balance technical excellence with business outcomes and customer needs.\n\nPreferred Qualifications\n\n• Experience with cloud platforms such as AWS or Azure.\n\n• Experience with containerization technologies including Docker and Kubernetes.\n\n• Experience building or supporting microservices-based architectures.\n\n• Front-end development experience using React (preferred) or Angular.\n\n• Experience with automated testing frameworks such as NUnit, xUnit, or MSTest.\n\n• Familiarity with AI-powered development tools for code generation, testing automation, documentation, or productivity enhancements.\n\n• Experience with Azure DevOps.\n\n• Healthcare technology or SaaS experience is a plus.\n\nAdditional Information\n\nWhile we've outlined some key qualities we typically seek, it's essential to remember that there might be additional unique strengths and talents you possess that would make you an exceptional match for us, even if they're not explicitly mentioned. Studies have consistently highlighted the significance of this principle, particularly for individuals from disenfranchised backgrounds, including women and other marginalized groups. These individuals often hesitate to apply unless they meet every single requirement, unlike their male counterparts who are more inclined to apply when they meet around 60% of the criteria.\n\nThe message we want to convey is that taking a leap of faith and applying can be incredibly rewarding. Your distinct abilities and perspectives could be exactly what we need to create a more diverse and inclusive team. So, don't hesitate—apply today and let's explore the exciting possibilities together!\n\nAll your information will be kept confidential according to EEO guidelines.\n\nAt Ensora Health, Diversity, Equity, Inclusion, and Belonging aren’t just words. We celebrate what makes us unique, foster an ecosystem of inclusion for all and harness our talents to promote diversity of thought and action in everything we do.\n\nWe instill Diversity, Equity, Inclusion, and Belonging into the fabric of our CARING culture and business, as we strive to be recognized not only as the leader in healthcare technology, but also for our intentional efforts to promote a diverse community.\n\nWe will champion non-discriminatory practices throughout the employee and customer lifecycle; caring for every person regardless of race, national origin, color, religion, disability, sex, orientation, or familial status.\n\nEnsora Health is an equal opportunity employer.",
+        "job_is_remote": true,
+        "job_posted_at": "6 days ago",
+        "job_posted_at_timestamp": 1790899200,
+        "job_posted_at_datetime_utc": "2026-10-02T00:00:00.000Z",
+        "job_location": "Anywhere",
+        "job_city": null,
+        "job_state": null,
+        "job_country": null,
+        "job_latitude": null,
+        "job_longitude": null,
+        "job_benefits": null,
+        "job_benefits_strings": null,
+        "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DFu_bL69L1Nm_a_hsAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+        "job_salary": null,
+        "job_salary_string": null,
+        "job_min_salary": null,
+        "job_max_salary": null,
+        "job_salary_period": null,
+        "job_highlights": {},
+        "job_onet_soc": null,
+        "job_onet_job_zone": null,
+        "employer_reviews": null,
+        "job_uid": "Fu_bL69L1Nm_a_hsAAAAAA=="
+      },
+      {
+        "job_id": "ZFNQTTQ4dUloRDRrQVdvdEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTemhLYjFscGJYTnFXRE5QTW10VVduUXlOR2hDYkc1R1VXRlBNRkIxYldSbFpXNXVSMFJqVlVKTk1WcDFZVjgzVjJaalptOHlWRmRHTVRCNldVdEtaRFJyYXpKdVoySnpUekpoVG5CUFFXZFlNWGhXVjJsRVEwTmFTbGRaUlZWc1MydzVhSFp4WHpoRGRWRlhlbGxCYm1RMlUwOVNZMTlCU0ZWeExXVTVSVU4zVUZWWVMyUVNGMUJ4TjBoaGNHcFhSRTlsTW1oMlkxQXdYMWhuTWxGSkdpSkJSSE55T1daVFUwZEdObXhWWVdScVUxcE1RM05RTWpGc1NHbGhaakk1U0VKMw",
+        "job_title": "Java full stack developer or lead developer",
+        "employer_name": "Cortex Consultants LLC",
+        "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTe1VDRVbeUwZX3DELI6XlJM1Inwvbb8kOYSQN&s=0",
+        "employer_website": null,
+        "job_publisher": "LinkedIn",
+        "job_employment_type": "Full-time",
+        "job_employment_types": [
+          "FULLTIME"
+        ],
+        "job_apply_link": "https://www.linkedin.com/jobs/view/java-full-stack-developer-or-lead-developer-at-cortex-consultants-llc-4476728228",
+        "job_apply_is_direct": false,
+        "apply_options": [
+          {
+            "apply_link": "https://www.linkedin.com/jobs/view/java-full-stack-developer-or-lead-developer-at-cortex-consultants-llc-4476728228",
+            "is_direct": false,
+            "publisher": "LinkedIn"
+          }
+        ],
+        "job_description": "We need a strong Java full-stack developer or lead with 8-12 years of experience for the JPMC client in Chicago, IL.\n\nStrong in Java coding, Kafka, AWS knowledge ,react & micro services\n\nIn-person interview is must.",
+        "job_is_remote": false,
+        "job_posted_at": "2 days ago",
+        "job_posted_at_timestamp": 1791244800,
+        "job_posted_at_datetime_utc": "2026-10-06T00:00:00.000Z",
+        "job_location": "Chicago, IL",
+        "job_city": "Chicago",
+        "job_state": "Illinois",
+        "job_country": "US",
+        "job_latitude": 41.88325,
+        "job_longitude": -87.6323879,
+        "job_benefits": null,
+        "job_benefits_strings": null,
+        "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DdSPM48uIhD4kAWotAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+        "job_salary": null,
+        "job_salary_string": null,
+        "job_min_salary": null,
+        "job_max_salary": null,
+        "job_salary_period": null,
+        "job_highlights": {},
+        "job_onet_soc": null,
+        "job_onet_job_zone": null,
+        "employer_reviews": null,
+        "job_uid": "dSPM48uIhD4kAWotAAAAAA=="
+      },
+      {
+        "job_id": "aVJJU3RDNmdhUVBRS3VBRUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTM0o1V1hwS1ZERkRTR2x3Y2pWMFRWZEVWVVowZUdKdlVWbFRlVzFrWXpoaWJHb3hiMkV4WkU1TFQyUjRaMHBqUWtkSlVuZFJla3RXZWpWVVpXOU1hSEZrY1U0MFpVSmpjbFUzY3paalJVUk5MVVZ3V2tsbU5WbFNkekZCYTNoVGVGRXdUSFpQVjNZMFN6ZEJYME56VWxKa05WUlRiazVDWWpkZmMxUmZSSFIzV0RCdmVVVVNGMUJ4TjBoaGNHcFhSRTlsTW1oMlkxQXdYMWhuTWxGSkdpSkJSSE55T1daVVRHVndaMUZCVGxaTVduQTNXbmx3VkZKTWRrcHFUbEpoZUZWUg",
+        "job_title": "Senior UI Developer (ReactJS)",
+        "employer_name": "TalentOla",
+        "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLp5rAIjSOrUKXIU0CnZFVpPaFndsBPh2zpwA5&s=0",
+        "employer_website": "https://www.talentola.com",
+        "job_publisher": "LinkedIn",
+        "job_employment_type": "Contractor",
+        "job_employment_types": [
+          "CONTRACTOR"
+        ],
+        "job_apply_link": "https://www.linkedin.com/jobs/view/senior-ui-developer-reactjs-at-talentola-4475111762",
+        "job_apply_is_direct": false,
+        "apply_options": [
+          {
+            "apply_link": "https://www.linkedin.com/jobs/view/senior-ui-developer-reactjs-at-talentola-4475111762",
+            "is_direct": false,
+            "publisher": "LinkedIn"
+          }
+        ],
+        "job_description": "React 18+, Angular 18+, TypeScript, JavaScript, HTML/CSS, Angular Material, React MUI, Design Systems, Design Tokens, Storybook, WCAG 2.1 AA, CI/CD, Azure DevOps, Git, Automated Testing (Jest/Karma/Cypress/Playwright), AI-assisted development tools (GitHub Copilot, Codex, Claude Code)\n\nDesired Skills:\n\nLit/Web Components, Shadow DOM, Micro Frontend Architecture, Nx Monorepo, Module Federation, npm Package Publishing, Azure Artifacts, GraphQL, Okta/OAuth2/OIDC, Visual Regression Testing, Healthcare Domain, HIPAA, SOC2\n\nJob Description:\n\nIn this role, you will build and maintain client's shared UI component libraries and the micro-product experiences that compose into the VIP platform shell.\n\nYou will work with UX, Product Management, Platform Architecture, and QA teams. Together you will deliver a framework-agnostic web component toolkit alongside the existing Angular and React toolkits, and independently deployable micro-product UIs that mount into a shared shell.\n\nYou will also help set the component standards, design token architecture, and automation that keep the toolkits in parity and let product teams move faster.\n\nResponsibilities:\n\n• Design, build, and maintain components across the Angular, React, and web component toolkits, keeping behaviour, accessibility, and styling in parity across all three.\n\n• Build reusable UI components with Angular Material, React MUI, and Lit, working from Figma designs supplied by the UX team.\n\n• Own and extend the shared design token layer that feeds every toolkit, and the theming that lets products adopt brand changes without rework.\n\n• Build and extend micro-frontend applications using Nx monorepo tooling and Module Federation, including runtime composition of multiple frameworks on a single page.\n\n• Design component APIs for consumption by other teams: props and inputs, composition patterns, and controlled versus uncontrolled behaviour.\n\n• Own versioning, deprecation, and migration guidance for every breaking change.\n\n• Publish and maintain npm packages to a private Azure Artifacts feed, with semantic versioning and release notes that consuming teams can act on.\n\n• Integrate micro-product UIs with enterprise platforms, including Okta (OAuth2/OIDC, JWT bearer authentication) token flow across shell and products, and REST and GraphQL service layers.\n\n• Keep quality high with automated testing: Jest and Karma for unit tests, Playwright or Cypress for end-to-end, and visual regression testing across every component on every deployment.\n\n• Document components in Storybook across frameworks, and maintain the documentation site that designers and engineers both use.\n\n• Build accessibility to WCAG 2.1 AA into every component — keyboard navigation, screen reader support, and focus management — so consuming products inherit it rather than solving it independently.\n\n• Maintain CI/CD pipelines in Azure DevOps and GitHub Actions across dev, test, stage, and prod, with coverage and quality gates enforced.\n\n• Take part in spec-driven development: turn design and product requirements into technical designs, ADRs, and implementation plans.\n\n• Use AI-assisted engineering tools throughout.\n\n• Mentor engineers, lead code reviews, and contribute to reference patterns, coding standards, and reusable components across the team.\n\n• Evaluate new technologies and run proofs-of-concept to improve platform maturity and developer productivity.\n\nQualifications:\n\n• Bachelor's degree in Computer Science, Engineering, or a related field (or equivalent experience).\n\n• 5 or more years of professional front-end engineering experience.\n\n• 3 or more years of hands-on experience with React (18+) and TypeScript.\n\n• 3 or more years of hands-on experience with Angular (v18+), including standalone components, signals, and RxJS.\n\n• Strong JavaScript fundamentals: DOM, the object model, and modern ECMAScript.\n\n• Strong HTML and CSS: layout, responsive breakpoints, and cross-browser behaviour.\n\n• Demonstrated experience building a shared component library or design system consumed by other teams.\n\n• Hands-on experience with Angular Material and React MUI, including theming and style overrides.\n\n• Experience with design tokens and multi-brand or multi-theme styling.\n\n• Experience with Storybook for component documentation and development.\n\n• Working knowledge of WCAG 2.1 AA accessibility and how to build to it.\n\n• Experience writing automated unit, integration, and end-to-end tests.\n\n• Experience building CI/CD pipelines and working in Git-based workflows.\n\n• Daily working use of AI-assisted development tools such as Claude Code, GitHub Copilot, or Codex, including writing effective prompts and repo-level instruction files.",
+        "job_is_remote": false,
+        "job_posted_at": "2 days ago",
+        "job_posted_at_timestamp": 1791244800,
+        "job_posted_at_datetime_utc": "2026-10-06T00:00:00.000Z",
+        "job_location": "Chicago, IL",
+        "job_city": "Chicago",
+        "job_state": "Illinois",
+        "job_country": "US",
+        "job_latitude": 41.88325,
+        "job_longitude": -87.6323879,
+        "job_benefits": null,
+        "job_benefits_strings": null,
+        "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DiRIStC6gaQPQKuAEAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+        "job_salary": null,
+        "job_salary_string": null,
+        "job_min_salary": null,
+        "job_max_salary": null,
+        "job_salary_period": null,
+        "job_highlights": {},
+        "job_onet_soc": null,
+        "job_onet_job_zone": null,
+        "employer_reviews": null,
+        "job_uid": "iRIStC6gaQPQKuAEAAAAAA=="
+      },
+      {
+        "job_id": "MEdPWEpQZDY0SHk4ZXMxc0FBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMWR5U1dGeFpFSndjbFZEYWpkeU56UTFjbmRDVkdsWGVrMDVZMmRLTWtNdFF6UTRXVVkyV0hFMWVGcHZibVZmTmt0S1YwOTZUMWhCYWt3dFZWVjNZakp0TTJWelpsWmhaM2hvUlRWU09HNUhjV2xoZWs1MmRXSm1OVmxxUmxSM1UwUXpXazlSUmtoaGFHSlFVVjlRTkdoNWNWTjZURVYyYldoYVpYQnJOVko1ZUV4b0xYSVNGMUJ4TjBoaGNHcFhSRTlsTW1oMlkxQXdYMWhuTWxGSkdpSkJSSE55T1daVWVuaDFlSE50WTI1UVpGVTFSMmRLYW5CVlVIbGxRV0paZFhsUg",
+        "job_title": "Senior .NET Developer - Information Technology",
+        "employer_name": "United Airlines",
+        "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://united.com&size=128",
+        "employer_website": "https://www.united.com",
+        "job_publisher": "Careers At United Airlines",
+        "job_employment_type": "Full-time",
+        "job_employment_types": [
+          "FULLTIME"
+        ],
+        "job_apply_link": "https://careers.united.com/us/en/job/WHQ00026660/Senior-NET-Developer-Information-Technology",
+        "job_apply_is_direct": false,
+        "apply_options": [
+          {
+            "apply_link": "https://careers.united.com/us/en/job/WHQ00026660/Senior-NET-Developer-Information-Technology",
+            "is_direct": false,
+            "publisher": "Careers At United Airlines"
+          }
+        ],
+        "job_description": "Achieving our goals starts with supporting yours. Grow your career, access top-tier health and wellness benefits, build lasting connections with your team and our customers, and travel the world using our extensive route network.\n\nCome join us to create what’s next. Let’s define tomorrow, together.\n\nDescription\nUnited's Digital Technology team is comprised of many talented individuals all working together with cutting-edge technology to build the best airline in the history of aviation. Our team designs, develops and maintains massively scaling technology solutions brought to life with innovative architectures, data analytics, and digital solutions.\n\nJob Overview and Responsibilities\n\nThe Senior Developer - IT is an experienced software development professional who leads the design, development, and deployment of high-quality software solutions that support business goals and user experiences. This role requires deep technical expertise, strong problem-solving skills, and a commitment to driving engineering best practices. Collaborate across functional teams to deliver scalable, secure, and maintainable applications across web, mobile, and cloud platforms.\n\n• Software Design and Development:• Manages and participates in the full development life cycle, including concept, design, build, deployment, testing, production release, and support\n\n• Code Review and Quality Assurance:• Review code for accuracy, functionality, and adherence to coding standards, and participate in testing and debugging to ensure software quality\n• Utilize source control and bug-tracking systems effectively\n• Review estimates for software development and delivery to ensure they meet quality and accuracy standards\n• Perform unit testing on code to ensure robustness, including testing for edge cases, usability, and overall reliability\n\n• Staying Up-to-Date:• Stay current with the latest technologies, tools, and best practices in the software development field\n• Conduct research and development to assess emerging technologies and their potential to enhance the platform\n• Evaluate, recommend, and implement third-party software as necessary\n\n• Troubleshooting & Optimization:• Proactively identify performance issues, bottlenecks, and bugs; implement solutions that improve application reliability and user experience\n• Conduct performance tuning and root cause analysis of production issues\n\n• Project Leadership and Mentorship:• Guide the technical direction of projects, mentor junior developers, and may manage a team or oversee project-related tasks\n• Manages and participates in design meetings, analyzing user needs to determine technical requirements\n• Collaborates with and leads tech teams consisting of employees and contractor personnel from vendor companies in planning and execution, serving as a technology leader\n\nQualifications\nWhat’s needed to succeed (Minimum Qualifications):\n\n• Bachelor's degree\n• Computer Science, Computer Engineering, Electrical Engineering, Management Information Systems or related field\n• 3+ years of hands-on experience in software development in an Agile environment\n• Proficient in .NET or other modern programming languages (Java, etc.)\n• Strong experience with front-end and/or backend frameworks\n• Solid understanding of databases and system integration\n• Experience with cloud platforms (AWS, Azure, etc.) and CI/CD pipelines\n• Strong analytical and problem-solving skills required\n• Able to manage multiple priorities and deliverables, both short and long-term, in a busy and aggressive environment required\n• Must be self-motivated, possess strong communication skills, and be able to work in a team-oriented environment\n• Must be legally authorized to work in the United States for any employer without sponsorship\n• Successful completion of interview required to meet job qualification\n• Reliable, punctual attendance is an essential function of the position\n\nWhat will help you propel from the pack (Preferred Qualifications):\n\n• Familiarity with DevOps\n• Knowledge of automated testing, security best practices, and observability tools\n• Demonstrates an understanding of the capabilities and limitations of generative AI tools and effectively leverages them for research, analysis, content creation, and problem-solving. Applies critical thinking to validate AI-generated outputs while adhering to company policies related to responsible AI use, data privacy, and security.\n\nThe base pay range for this role is $112,480.00 to $146,540.00.\nThe base salary range/hourly rate listed is dependent on job-related, factors such as experience, education, and skills. This position is also eligible for bonus and/or long-term incentive compensation awards.\n\nYou may be eligible for the following competitive benefits: medical, dental, vision, life, accident & disability, parental leave, employee assistance program, commuter, paid holidays, paid time off, 401(k) and flight privileges.\n\nUnited Airlines is an Equal Opportunity Employer. We recruit, employ, train, compensate, and promote without regard to race, color, religion, national origin, gender identity, sexual orientation, disability, age, veteran status, or any other protected category under applicable law. We provide reasonable accommodations for applicants and employees with disabilities. To request an accommodation, contact JobAccommodations@united.com",
+        "job_is_remote": false,
+        "job_posted_at": "2 days ago",
+        "job_posted_at_timestamp": 1791244800,
+        "job_posted_at_datetime_utc": "2026-10-06T00:00:00.000Z",
+        "job_location": "Chicago, IL",
+        "job_city": "Chicago",
+        "job_state": "Illinois",
+        "job_country": "US",
+        "job_latitude": 41.88325,
+        "job_longitude": -87.6323879,
+        "job_benefits": [
+          "dental_coverage",
+          "paid_time_off",
+          "health_insurance"
+        ],
+        "job_benefits_strings": [
+          "Dental insurance",
+          "Paid time off",
+          "Health insurance"
+        ],
+        "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3D0GOXJPd64Hy8es1sAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+        "job_salary": null,
+        "job_salary_string": null,
+        "job_min_salary": null,
+        "job_max_salary": null,
+        "job_salary_period": null,
+        "job_highlights": {},
+        "job_onet_soc": null,
+        "job_onet_job_zone": null,
+        "employer_reviews": null,
+        "job_uid": "0GOXJPd64Hy8es1sAAAAAA=="
+      },
+      {
+        "job_id": "d29qMmdFMlNfNkxxdm1MQUFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUSEp0V21FeWN6Qk1iVXQ2U2pRMlF6WkRXVlpTTldrNFRXRkJhMVZpT1ZaWGQweFJZM0l4VUZReGNEWkNObWR1T0hoclZscDBkRzl5WTFRdE5WaFFUbFI1ZDAxdGJtWndSRk42UkRjMFdtUnhkWEpsYlVaRFpFaDFNa1F0ZGt0RWMyTk9lbm81TlhoVlNFNXVXRzFKUW1sTFRVMDRUVkZTZDJaTlVVcFJhVzgwVldWZmVGVVNGMUJ4TjBoaGNHcFhSRTlsTW1oMlkxQXdYMWhuTWxGSkdpSkJSSE55T1daUlJtOXlkMEZEYkcxV1drb3lOMVZ3YzBaaGRIWlFXalJHVVZGQg",
+        "job_title": "Senior Developer",
+        "employer_name": "TEKsystems",
+        "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnXsEN7UUtvSpIi0itdBndnljUWnfdCSoQtMsq&s=0",
+        "employer_website": "https://www.teksystems.com",
+        "job_publisher": "TEKsystems Careers",
+        "job_employment_type": "Full-time",
+        "job_employment_types": [
+          "FULLTIME"
+        ],
+        "job_apply_link": "https://careers.teksystems.com/us/en/job/JP-006314322/Senior-Developer",
+        "job_apply_is_direct": false,
+        "apply_options": [
+          {
+            "apply_link": "https://careers.teksystems.com/us/en/job/JP-006314322/Senior-Developer",
+            "is_direct": false,
+            "publisher": "TEKsystems Careers"
+          }
+        ],
+        "job_description": "One North is a digital experience agency that combines curiosity, scale, and agility to shape the future. As part of TEKsystems, a leading provider of business and technology services, we offer boutique solutions to solve complex problems. Our multidisciplinary teams of strategists, designers, and technologists excel in research and discovery, experience strategy, design, experience management, and technology implementation. Whether clients are establishing a vision for an experience or optimizing an existing one, we help businesses understand their audiences, design experiences, maximize technology, and bring their digital ideas to life. The worlds most successful companies rely on us to forge the future through electrifying work that sparks innovation and drives results.\n\nHeres what the opportunity supported through our TEKsystems Global Services (TGS) Talent Acquisition Team requires:\n\nAbout You\n\nYoure a technologist with advanced expertise in building and directing digital brand experiences across a complex portfolio of clients and projects. As Senior Developer, you bring experience in creating solutions as well as directing developers on solutions to be implemented.\n\nYou regularly drive team camaraderie, bringing empathy to create safe spaces for taking risks and healthy debate. You bring a pragmatic and practical approach, reducing problems/impact across the team. Youre the Senior Developer teams dream of.\n\nThe Opportunity\n\nAs our next Senior Developer, you will drive project implementation and strategy, working across back-end technologies to advance progressive, responsive, and high-performing website builds. Partnering closely with clients and internal teams, you will review, develop, and implement technical client applications. As part of acting as the Lead on these initiatives, you are responsible for creating solutions and/or directing developers on the solutions to be implemented.\n\nAlthough you will not directly manage people, youll play a lead role on projects, requiring ongoing development of leadership capabilities. You will actively develop self-awareness capabilities and regularly seek feedback from diverse perspectives, applying feedback to support your growth and development.\n\nThis role will ideally be based in the Chicago area, but we are open to remote locations across the U.S. and Canada.\n\nCore Responsibilities\n\nParticipate in the implementation, testing, and support of web-based projects.\n\nEngineer solutions for performance, maintainability, and efficiency, while also creating beautiful end-user experiences.\n\nBe a primary contributor to the testing process and provide issue fixes as needed.\n\nImprove solutions to reduce technical debt, optimize applications, and investigate and architect improvements for feature updates.\n\nUtilize your deep knowledge of the .NET page lifecycle/MVC, including object-oriented programming concepts, browser compatibility considerations, and web performance optimization tools.\n\nNurture and mentor new members of the Technology team.\n\nSuccessfully lead other developers in developing web solutions.\n\nRecommend and consult with high-profile clients on projects of varying size/scope.\n\nPower Skills\n\nCustomer Focus: Builds strong customer relationships and solutions.\n\nPlans & Aligns: Plans and prioritizes to meet commitments and org goals.\n\nCommunicates Effectively: Communicates with clarity, addressing audience needs.\n\nSelf-Development: Proactively seeks L&D opportunities for growth.\n\nCultivates Innovation: Creates new and better ways for the organization to be successful.\n\nDrives Results: Consistently achieves results, even under tough circumstances.\n\nCollaborates: Builds partnerships and works collaboratively to meet shared objectives.\n\nAdaptability: Adapts approach in real-time to meet shifting demands of different situations.\n\nRequired Experience\n\nDevelopment experience in an agency or consultancy (minimum 3 years of experience)\n\nExpert in .NET MVC, ASP.NET (minimum 3 years of experience)\n\nExperience with HTML5, CSS3 (SASS) (minimum 3 years of experience)\n\nExperience with JavaScript, Node.JS, and frameworks (Vue.JS/React) (minimum 3 years of experience)\n\nExperience with Git (minimum 3 years of experience)\n\nAn understanding of enterprise software development best practices (minimum 3 years of experience)\n\nExperience with MongoDB and SQL Server (minimum 1 year of experience)\n\nBroad knowledge of capabilities across different browsers and devices\n\nPrevious work with DevOps tooling and management\n\nExpertise with Sitecore / SitecoreAI (minimum 3 years of experience)\n\nExtensive use of other modern CMS systems (WordPress, Drupal, Adobe AEM, or similar) (minimum 3 years of experience)\n\nExperience in reviewing and handling complex support issues (minimum 3 years of experience)\n\nExperience with headless architectures\n• Dont check all the boxes? We encourage you to apply anyway. We know smarts grow from a breadth of experiences. Dont disqualify yourself before you have the chance to be considered. Wed love to meet you.\nJob Type & Location\n\nThis is a Permanent position based out of Chicago, IL.\nPay and Benefits\n\nThe pay range for this position is $91700.00 - $137500.00/yr.\n\nIndividual compensation offered for this position within this range will depend on many factors, including qualifications, skills, relevant experience, job knowledge, geographic location, internal equity, and other pertinent job-related factors.\n\nWe reserve the right to pay above or below the posted wage based on factors unrelated to sex, race, or any other protected classification.\n\nAdditional earnings may be available through incentive programs like annual bonuses, profit sharing, etc.\n\nBenefits are subject to change and may be subject to specific elections, plan or program terms. Our benefit plans include the following:\n\n· Medical, dental & vision\n· 401(k)/Roth\n· Insurance (Basic/Supplemental Life & AD&D)\n· Short and long-term disability\n· Health & Dependent Care Spending Accounts (HSA & DCFSA)\n· Transportation benefits\n· Employee Assistance Program\n· Tuition Assistance\n· Time Off/Leave (PTO, Paid Family Leave)\nWorkplace Type\n\nThis is a fully remote position.\nApplication Deadline\n\nThis position is anticipated to close on Oct 12, 2026.\n\nAbout TEKsystems\n\nWe're partners in transformation. We help clients activate ideas and solutions to take advantage of a new world of opportunity. We are a team of 80,000 strong, working with over 6,000 clients, including 80% of the Fortune 500, across North America, Europe and Asia. As an industry leader in Full-Stack Technology Services, Talent Services, and real-world application, we work with progressive leaders to drive change. That's the power of true partnership. TEKsystems is an Allegis Group company.\n\nThe company is an equal opportunity employer and will consider all applications without regards to race, sex, age, color, religion, national origin, veteran status, disability, sexual orientation, gender identity, genetic information or any characteristic protected by law.\n\nAbout TEKsystems and TEKsystems Global Services\n\nWere a leading provider of business and technology services. We accelerate business transformation for our customers. Our expertise in strategy, design, execution and operations unlocks business value through a range of solutions. Were a team of 80,000 strong, working with over 6,000 customers, including 80% of the Fortune 500 across North America, Europe and Asia, who partner with us for our scale, full-stack capabilities and speed. Were strategic thinkers, hands-on collaborators, helping customers capitalize on change and master the momentum of technology. Were building tomorrow by delivering business outcomes and making positive impacts in our global communities. TEKsystems and TEKsystems Global Services are Allegis Group companies. Learn more at TEKsystems.com.\n\nThe company is an equal opportunity employer and will consider all applications without regard to race, sex, age, color, religion, national origin, veteran status, disability, sexual orientation, gender identity, genetic information or any characteristic protected by law.\n\nSan Francisco Fair Chance Ordinance: Pursuant to the San Francisco Fair Chance Ordinance, for all positions located in the city and county of San Francisco, we will consider for employment qualified applicants with arrest and conviction records.\n\nMassachusetts Lie Detector: It is unlawful in Massachusetts to require or administer a lie detector test as a condition of employment or continued employment. An employer who violates this law shall be subject to criminal penalties and civil liability.\n\nUse of Artificial Intelligence (AI): We may use Artificial Intelligence (AI) to support parts of our hiring process, including sourcing, screening, and evaluating candidates. AI helps assess applications and qualifications, but final decisions are made by our hiring team. By applying, you acknowledge and agree that your application may be reviewed using AI tools.",
+        "job_is_remote": false,
+        "job_posted_at": "15 hours ago",
+        "job_posted_at_timestamp": 1791414000,
+        "job_posted_at_datetime_utc": "2026-10-07T23:00:00.000Z",
+        "job_location": "Chicago, IL",
+        "job_city": "Chicago",
+        "job_state": "Illinois",
+        "job_country": "US",
+        "job_latitude": 41.88325,
+        "job_longitude": -87.6323879,
+        "job_benefits": [
+          "paid_time_off",
+          "health_insurance",
+          "dental_coverage"
+        ],
+        "job_benefits_strings": [
+          "Paid time off",
+          "Health insurance",
+          "Dental insurance"
+        ],
+        "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3Dwoj2gE2S_6LqvmLAAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+        "job_salary": null,
+        "job_salary_string": "91.7K–138K a year",
+        "job_min_salary": 91700,
+        "job_max_salary": 138000,
+        "job_salary_period": "YEAR",
+        "job_highlights": {},
+        "job_onet_soc": null,
+        "job_onet_job_zone": null,
+        "employer_reviews": null,
+        "job_uid": "woj2gE2S_6LqvmLAAAAAAA=="
+      },
+      {
+        "job_id": "QkxiUDdWRVdKUy0ySERHUEFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBTMTl5TTI5V1JuZFFjVTFOYlRCUFMwVm1ibkpHWTNoQk9HWkhhVGw1TVdKSE4zUnRMVzAwTldwV1gwMXRTWEZKZFVKT1ZUSlpUMEpLVG1wRE15MUpkME5JYkVOSlExSjJUMjA1VVVJeWFsVjJhMHR3VGpGaWJFbzJWa296UjFCSE9GQk5SblJ5WlhaUGEyd3lSVGR5YkhoVVV6WlVZbFJpUW5wbFgwRklSRVp6WTJSdlNVc1NGMUJ4TjBoaGNHcFhSRTlsTW1oMlkxQXdYMWhuTWxGSkdpSkJSSE55T1daVU5VaDRUbTlhU0hOQ01GVkZPV2RPUVZwR2NWWlNXVFkwTkRCUg",
+        "job_title": "Software Engineer 1 - Mainframe (Cobol)",
+        "employer_name": "U.S. Bank National Association",
+        "employer_logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQckQkxL2LpalwOTmazc6RPgi7tbxG8dGI668xu&s=0",
+        "employer_website": null,
+        "job_publisher": "Indeed",
+        "job_employment_type": "Full-time",
+        "job_employment_types": [
+          "FULLTIME"
+        ],
+        "job_apply_link": "https://www.indeed.com/viewjob?jk=909b18a73a127f6b",
+        "job_apply_is_direct": false,
+        "apply_options": [
+          {
+            "apply_link": "https://www.indeed.com/viewjob?jk=909b18a73a127f6b",
+            "is_direct": false,
+            "publisher": "Indeed"
+          }
+        ],
+        "job_description": "At U.S. Bank, we’re on a journey to do our best. Helping the customers and businesses we serve to make better and smarter financial decisions and enabling the communities we support to grow and succeed. We believe it takes all of us to bring our shared ambition to life, and each person is unique in their potential. A career with U.S. Bank gives you a wide, ever-growing range of opportunities to discover what makes you thrive at every stage of your career. Try new things, learn new skills and discover what you excel at—all from Day One.\n\nJob Description\n\nThis position will be responsible for the analysis, design, testing, development and maintenance of best in class software experiences. The candidate is a self-motivated individual who can collaborate with a team and across the organization. The candidate takes responsibility of the software artifacts produced adhering to U.S. Bank standards in order to ensure minimal impact to the customer experience. The candidate will be adept with the agile software development lifecycle and DevOps principles.\n\nEssential Responsibilities:\n\n• Responsible for designing, developing, testing, operating and maintaining products\n\n• Takes full stack ownership by consistently writing production-ready and testable code\n\n• Consistently creates optimal design adhering to architectural best practices; considers scalability, reliability and performance of systems/contexts affected when defining technical designs\n\n• Performs analysis on failures, propose design changes, and encourage operational improvements\n\n• Makes sound design/coding decisions keeping customer experience in the forefront\n\n• Takes feedback from code review and apply changes to meet standards\n\n• Conducts code reviews to provide guidance on engineering best practices and compliance with development procedures\n\n• Accountable for ensuring all aspects of product development follow compliance and security best practices\n\n• Exhibits relentless focus in software reliability engineering standards embedded into development standards\n\n• Embraces emerging technology opportunities and contributes to the best practices in support of the bank’s technology transformation\n\n• Contributes to a culture of innovation, collaboration and continuous improvement\n\n• Reviews tasks critically and ensures they are appropriately prioritized and sized for incremental delivery; anticipates and communicates blockers and delays before they require escalation\n\nBasic Qualifications\n\n• Bachelor’s degree, or equivalent work experience\n\n• Two to three years of relevant experience\n\nPreferred Skills/Experience\n\n• Strong technical knowledge and skills in Cobol, DB2 , JCL, VSAM\n\n• Adept with agile software development lifecycle and DevOps principles\n\n• Complete understanding of a feature, the users impacted, the flows impacted and feature's purpose\n\n• Technically proficient and able to define and fulfill solutions requirements for end user\n\n• Able to communicate processes and results with all parties involved in the product team, including engineers, product owner, scrum master, third party vendors and customers\n\n• Proficient understanding of algorithms, data structures, architectural design patterns and best practices\n\n• Strong problem-solving and analytical skills\n\nLocation expectations\n\nThis role requires working from a U.S. Bank location three (3) or more days per week.\n\nIf there’s anything we can do to accommodate a disability during any portion of the application or hiring process, please refer to our disability accommodations for applicants.\n\nBenefits:\n\nOur approach to benefits and total rewards considers our team members’ whole selves and what may be needed to thrive in and outside work. That's why our benefits are designed to help you and your family boost your health, protect your financial security and give you peace of mind. Our benefits include the following:\n\n•\nHealthcare (medical, dental, vision)\n\n•\nBasic term and optional term life insurance\n\n•\nShort-term and long-term disability\n\n•\nPregnancy disability and parental leave\n\n•\n401(k) and employer-funded retirement plan\n\n•\nPaid vacation (from two to five weeks depending on salary grade and tenure)\n\n•\nUp to 11 paid holiday opportunities\n\n•\nAdoption assistance\n\n•\nSick and Safe Leave accruals of one hour for every 30 worked, up to 80 hours per calendar year unless otherwise provided by law\n\nReview our full benefits available by employment status here.\n\nU.S. Bank is an equal opportunity employer. We consider all qualified applicants without regard to race, religion, color, sex, national origin, age, sexual orientation, gender identity, disability or veteran status, and other factors protected under applicable law.\n\nE-Verify\n\nU.S. Bank participates in the U.S. Department of Homeland Security E-Verify program in all facilities located in the United States and certain U.S. territories. The E-Verify program is an Internet-based employment eligibility verification system operated by the U.S. Citizenship and Immigration Services.\n\nThe salary range reflects figures based on the primary location, which is listed first. The actual range for the role may differ based on the location of the role. In addition to salary, U.S. Bank offers a comprehensive benefits package, including incentive and recognition programs, equity stock purchase 401(k) contribution and pension (all benefits are subject to eligibility requirements). Pay Range: $86,360.00 - $101,600.00\n\nU.S. Bank will consider qualified applicants with arrest or conviction records for employment. U.S. Bank conducts background checks consistent with applicable local laws, including the Los Angeles County Fair Chance Ordinance and the California Fair Chance Act as well as the San Francisco Fair Chance Ordinance. U.S. Bank is subject to, and conducts background checks consistent with the requirements of Section 19 of the Federal Deposit Insurance Act (FDIA). In addition, certain positions may also be subject to the requirements of FINRA, NMLS registration, Reg Z, Reg G, OFAC, the NFA, the FCPA, the Bank Secrecy Act, the SAFE Act, and/or federal guidelines applicable to an agreement, such as those related to ethics, safety, or operational procedures.\n\nApplicants must be able to comply with U.S. Bank policies and procedures including the Code of Ethics and Business Conduct and related workplace conduct and safety policies.\n\nPosting may be closed earlier due to high volume of applicants.",
+        "job_is_remote": false,
+        "job_posted_at": "7 days ago",
+        "job_posted_at_timestamp": 1790812800,
+        "job_posted_at_datetime_utc": "2026-10-01T00:00:00.000Z",
+        "job_location": "Chicago, IL",
+        "job_city": "Chicago",
+        "job_state": "Illinois",
+        "job_country": "US",
+        "job_latitude": 41.88325,
+        "job_longitude": -87.6323879,
+        "job_benefits": [
+          "health_insurance",
+          "paid_time_off",
+          "dental_coverage"
+        ],
+        "job_benefits_strings": [
+          "Health insurance",
+          "Paid time off",
+          "Dental insurance"
+        ],
+        "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DBLbP7VEWJS-2HDGPAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+        "job_salary": null,
+        "job_salary_string": "86,360–101,600 a year",
+        "job_min_salary": 86360,
+        "job_max_salary": 101600,
+        "job_salary_period": "YEAR",
+        "job_highlights": {},
+        "job_onet_soc": null,
+        "job_onet_job_zone": null,
+        "employer_reviews": null,
+        "job_uid": "BLbP7VEWJS-2HDGPAAAAAA=="
+      }
+    ],
+    "cursor": "EowECswDQUppVDR0SWNKR2dhaW1vZUZDRF9nc0h5V3RyMDNYUy1aeHYwVUw2TkF4OTFvbm9CSzd3eHZpME9URDd3Z3M1NlJUNE9XaE0xZ0hlTEtaenF4UTBkUzVvTVowZ1ZJQU5KcUhtNmlXdXJnT04zVmM1SUY1cUpGeUNYWlB0QmdZWjJjeGRnam1CMDlWMXhpNXhNYW9MNFdueGtybDZZQ0drZFBDV3ctQVY1eTMyYmxyWWJia2pTUnRMODlaWHBRRTNYcEFCSkx4TVlXZVl2UlZmZ2MwUVphTmRyVnUwMlNMLWxBb2s5a2dMWGEzd2N5WVVEZ1lGYlF2b2dXUnVENS1qZ1djWDRYV0l4Tk12TEFrWEtnanFJeEJZRHNrSUM4T0J4dDVFMTg4RGJIMmdkVG8wNHBkb1h3bXNHOVphcXdXMWVKOTlhZTljeDNCMmdnZ2QweUVWX05HVlZaMlBtT0p2M21yM3JvYlQ4RjhiTnM3Z3NOeFloV1F4bWQ2OENkMFZ6Y2lGZF9waV80V2JvV0tGX1pGaFBLdVIzVGdSazVELV9hRFBCUF9WRDliWUtmTjNpTXBpMWQ2RFVxZUxkamFTem5ieUtzVWFJSGxGdxIXUHE3SGFwaldET2UyaHZjUDBfWGcyUUkaIkFEc3I5ZlJBczRYYWJCMXo2a0dMV01VUThmeDQ0NVoxSHc"
+  }
+}
+
+
+job detail 
+
+GET https://jsearch.p.rapidapi.com/job-details?job_id=TU1SQkRfOURuWDhXVmFWREFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUR0pqWW5CcVdrOVFPVkpUWmpWSVdHNUJOelF4WXpRMlEwaGxPVFZwZUVSM2FsSkNlbEp6TFY5V1duWklabUo2U1hwSlQwZEtaR1U0UTNJd1p5MVdRM1JRWVdkYVMzWmFjR2s0ZEhScldXWTVSelJmV1VkVGVsYzJiMjlrY21aeGVUaGpWRGR0WVVkUkxXczJXSE0wTFdSc2VYbzRjWFJIWVRGUlZtUnFTMEppVEU4M1EwRVNGMGszZERaaGNsZFJUblF5UzNKMVJWQm5PSGsxYlZGUkdpSkJSSE55T1daUmNuWlRUbEpuUXpOYVpERlphbXMxWVVkSmNrSmZRMGN3VW05Qg&country=us HTTP/1.1
+accept: application/json
+x-rapidapi-host: jsearch.p.rapidapi.com
+x-rapidapi-key: 2f9875031fmsh4bb9bbc74cd044ap10814bjsne57a1b5f9a51
+x-rapidapi-ua: RapidAPI-Playground
+
+{
+  "status": "OK",
+  "request_id": "0315adfe-269e-41de-b49e-19160f678e07",
+  "parameters": {
+    "job_id": "TU1SQkRfOURuWDhXVmFWREFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUR0pqWW5CcVdrOVFPVkpUWmpWSVdHNUJOelF4WXpRMlEwaGxPVFZwZUVSM2FsSkNlbEp6TFY5V1duWklabUo2U1hwSlQwZEtaR1U0UTNJd1p5MVdRM1JRWVdkYVMzWmFjR2s0ZEhScldXWTVSelJmV1VkVGVsYzJiMjlrY21aeGVUaGpWRGR0WVVkUkxXczJXSE0wTFdSc2VYbzRjWFJIWVRGUlZtUnFTMEppVEU4M1EwRVNGMGszZERaaGNsZFJUblF5UzNKMVJWQm5PSGsxYlZGUkdpSkJSSE55T1daUmNuWlRUbEpuUXpOYVpERlphbXMxWVVkSmNrSmZRMGN3VW05Qg",
+    "country": "us",
+    "language": "en"
+  },
+  "data": [
+    {
+      "job_id": "TU1SQkRfOURuWDhXVmFWREFBQUFBQT09OkVzd0JDb3dCUVVwcFZEUjBUR0pqWW5CcVdrOVFPVkpUWmpWSVdHNUJOelF4WXpRMlEwaGxPVFZwZUVSM2FsSkNlbEp6TFY5V1duWklabUo2U1hwSlQwZEtaR1U0UTNJd1p5MVdRM1JRWVdkYVMzWmFjR2s0ZEhScldXWTVSelJmV1VkVGVsYzJiMjlrY21aeGVUaGpWRGR0WVVkUkxXczJXSE0wTFdSc2VYbzRjWFJIWVRGUlZtUnFTMEppVEU4M1EwRVNGMGszZERaaGNsZFJUblF5UzNKMVJWQm5PSGsxYlZGUkdpSkJSSE55T1daUmNuWlRUbEpuUXpOYVpERlphbXMxWVVkSmNrSmZRMGN3VW05Qg",
+      "job_uid": "MMRBD_9DnX8WVaVDAAAAAA==",
+      "job_title": "Education Research, Frontend Developer-SLATE",
+      "employer_name": "Huron Consulting Group",
+      "employer_logo": "https://t0.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=https://huronconsultinggroup.com&size=128",
+      "employer_website": "https://www.huronconsultinggroup.com",
+      "job_publisher": "Hiring Cafe",
+      "job_employment_type": "Full-time",
+      "job_employment_types": [
+        "FULLTIME"
+      ],
+      "job_apply_link": "https://hiringcafe.com/job/education-research-frontend-developer-slate-huron-consulting-group-xo7g3d4g5826sm26?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+      "job_apply_is_direct": false,
+      "apply_options": [
+        {
+          "apply_link": "https://hiringcafe.com/job/education-research-frontend-developer-slate-huron-consulting-group-xo7g3d4g5826sm26?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false,
+          "publisher": "Hiring Cafe"
+        },
+        {
+          "apply_link": "https://www.monster.com/job-openings/education-research-frontend-developer-slate-chicago-il--bce3e9cb-12a1-4f6c-b3d9-9af0bd7d9e6e?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false,
+          "publisher": "Monster"
+        },
+        {
+          "apply_link": "https://www.tealhq.com/job/frontend-developer-slate_7ea1adf42fa06ce4f32e62be52b81907bd6e3?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false,
+          "publisher": "Teal"
+        },
+        {
+          "apply_link": "https://www.simplyhired.com/job/jZEUFCSIUakvEZnN7PMsHIEY2Qrr77QbdxDamxA-Ue8BWOAOO4XsBg?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false,
+          "publisher": "SimplyHired"
+        },
+        {
+          "apply_link": "https://simplify.jobs/p/67c3293f-f8cb-4a2f-aa79-da9019127d2a/Education-Research?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false,
+          "publisher": "Simplify"
+        },
+        {
+          "apply_link": "https://lensa.com/job-v1/huron-consulting-group/remote/front-end-developer/a9845968ae9649ac4a42bb870b25d1de?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false,
+          "publisher": "Lensa"
+        },
+        {
+          "apply_link": "https://www.sonara.ai/job-details/education-research-at-huron-consulting-group-2dd49589-a976-e86a-bc5d-283fcb4ff92b?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false,
+          "publisher": "Sonara AI"
+        },
+        {
+          "apply_link": "https://us.trabajo.org/job-4023-baa974fc42b32c5fdf350323bf077b1c?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic",
+          "is_direct": false,
+          "publisher": "Trabajo.org"
+        }
+      ],
+      "job_description": "Huron helps its clients drive growth, enhance performance and sustain leadership in the markets they serve. We collaborate with education organizations to develop strategies and implement solutions that enable the transformative change our clients need to own their future. Together, we empower clients to drive innovation, create sustainable funding streams and deliver better student outcomes.\n\nToday, leaders of higher education institutions and academic medical centers are spending too much time reacting to market forces, rather than focusing on the essential priorities that help students, faculty and staff thrive. The most productive path forward requires an intentional approach and innovative thinking, whereby stakeholders across the entire institution rally around a shared vision and embrace the hard work of effecting change.\n\nYou’ll help our clients to achieve organizational effectiveness, improve student outcomes, implement new technologies and align resources and investments to ensure long-term sustainability.\n\nJoin our team as the expert you are now and create your future.\n\nThe Associates play an integral client-facing project work. While activities vary based on project size/scope and individual skill-sets and strengths, the Associate can expect to spend their time with a heavy focus on material client interaction through all projects, project management, intensive data-analysis and the identification for the “so-what’s” therein, and to creating compelling client-ready presentations.\n\nHow far can you go? Join Huron and find out. Let’s get to work – together.\n\nQualifications:\n\nRequired:\n• Bachelor’s degree or higher in graphic arts/design, visual communication, user interface/ user experience design, web development or other related field preferred\n• 2+ years of work experience in a professional, client-facing graphic/web designer or web developer role\n• Advanced proficiency in Adobe Creative Suite software: InDesign, Illustrator and Photoshop primarily\n• Demonstrated ability in designing high-fidelity prototypes in Sketch, Figma or other prototyping software, demonstrating user flows and interactive elements of the user experience and interface\n• Proficiency in HTML5 and CSS3\n\nPreferred:\n• Coding within Slate CRM or related CRM technologies.\n• Expertise in server-side CSS pre-processing platforms, such as SASS\n• Proficient understanding of the Bootstrap Framework or other frontend frameworks\n• Proficient understanding of client-side scripting and JavaScript frameworks, including jQuery\n• Proficient understanding of WCAG/Accessibility standards and ability to develop to them\n• Familiarity with WordPress CMS\n• *This is a Full time remote position\n\nPosition Level\nAssociate\n\nCountry\nUnited States of America",
+      "job_is_remote": false,
+      "job_posted_at": null,
+      "job_posted_at_timestamp": null,
+      "job_posted_at_datetime_utc": null,
+      "job_location": "Chicago, IL",
+      "job_city": "Chicago",
+      "job_state": "Illinois",
+      "job_country": "US",
+      "job_latitude": 41.88325,
+      "job_longitude": -87.6323879,
+      "job_benefits": null,
+      "job_benefits_strings": null,
+      "job_google_link": "https://www.google.com/search?q=jobs&gl=us&hl=en&udm=8#vhid=vt%3D20/docid%3DMMRBD_9DnX8WVaVDAAAAAA%3D%3D&vssid=jobs-detail-viewer",
+      "job_salary": null,
+      "job_salary_string": null,
+      "job_min_salary": null,
+      "job_max_salary": null,
+      "job_salary_period": null,
+      "job_highlights": {},
+      "job_onet_soc": null,
+      "job_onet_job_zone": null,
+      "employer_reviews": [
+        {
+          "publisher": "Indeed",
+          "employer_name": "Huron Consulting Group",
+          "score": 3.4,
+          "num_stars": 3,
+          "review_count": 225,
+          "max_score": 5,
+          "reviews_link": "https://www.indeed.com/cmp/Huron-Consulting-Group/reviews?utm_campaign=google_jobs_reviews&utm_source=google_jobs_reviews&utm_medium=organic&utm_campaign=google_jobs_reviews&utm_source=google_jobs_reviews&utm_medium=organic"
+        },
+        {
+          "publisher": "Glassdoor",
+          "employer_name": "Huron Consulting Group",
+          "score": 3.9,
+          "num_stars": 4,
+          "review_count": 2100,
+          "max_score": 5,
+          "reviews_link": "https://www.glassdoor.com/Reviews/Huron-Consulting-Group-Reviews-E35223.htm?utm_campaign=google_jobs_reviews&utm_source=google_jobs_reviews&utm_medium=organic&utm_campaign=google_jobs_reviews&utm_source=google_jobs_reviews&utm_medium=organic"
+        },
+        {
+          "publisher": "Comparably",
+          "employer_name": "Huron Consulting Group",
+          "score": 4.7,
+          "num_stars": 5,
+          "review_count": 116,
+          "max_score": 5,
+          "reviews_link": "https://www.comparably.com/companies/huron-consulting-group/reviews?utm_campaign=google_jobs_reviews&utm_source=google_jobs_reviews&utm_medium=organic&utm_campaign=google_jobs_reviews&utm_source=google_jobs_reviews&utm_medium=organic"
+        }
+      ],
+      "work_arrangement": "remote",
+      "seniority_level": "entry",
+      "required_experience_years": 2,
+      "education_required": {
+        "level": "bachelor",
+        "field": "graphic arts/design, visual communication, user interface/ user experience design, web development or other related field"
+      },
+      "visa_sponsorship": null,
+      "relocation_required": null,
+      "relocation_assistance": null,
+      "contract_duration": null,
+      "start_date": null,
+      "required_technologies": [
+        "Adobe InDesign",
+        "Adobe Illustrator",
+        "Adobe Photoshop",
+        "Sketch",
+        "Figma",
+        "HTML5",
+        "CSS3"
+      ],
+      "preferred_technologies": [
+        "Slate CRM",
+        "SASS",
+        "Bootstrap",
+        "JavaScript",
+        "jQuery",
+        "WordPress"
+      ],
+      "methodologies": [
+        "WCAG/Accessibility standards"
+      ],
+      "industry": "Education / Management Consulting",
+      "job_function": "frontend",
+      "has_management_responsibilities": false,
+      "ai_ml_involved": false,
+      "benefits_extended": [],
+      "soft_skills": [
+        "client interaction",
+        "project management",
+        "data-analysis",
+        "communication",
+        "problem solving"
+      ]
+    }
+  ]
+}
+
+
+job salary
+
+GET https://jsearch.p.rapidapi.com/estimated-salary?job_title=nodejs%20developer&location=new%20york&location_type=ANY&years_of_experience=ALL HTTP/1.1
+accept: application/json
+x-rapidapi-host: jsearch.p.rapidapi.com
+x-rapidapi-key: 2f9875031fmsh4bb9bbc74cd044ap10814bjsne57a1b5f9a51
+x-rapidapi-ua: RapidAPI-Playground
+
+{
+  "status": "OK",
+  "request_id": "f8ad43a8-dd2d-4b53-96d8-88633f24560e",
+  "parameters": {
+    "job_title": "nodejs developer",
+    "location": "new york",
+    "location_type": "ANY",
+    "years_of_experience": null
+  },
+  "data": [
+    {
+      "location": "New York, NY",
+      "job_title": "Nodejs Developer",
+      "min_salary": 121264.04,
+      "max_salary": 200593.87,
+      "median_salary": 155190.91,
+      "min_base_salary": 99784.69,
+      "max_base_salary": 160499.09,
+      "median_base_salary": 126551.78,
+      "min_additional_pay": 21479.35,
+      "max_additional_pay": 40094.78,
+      "median_additional_pay": 28639.13,
+      "salary_period": "YEAR",
+      "salary_currency": "USD",
+      "salary_count": 6,
+      "salaries_updated_at": "2025-04-10T23:59:59.000Z",
+      "publisher_name": "Glassdoor",
+      "publisher_link": "https://www.glassdoor.com/Salaries/company-salaries.htm?suggestCount=0&suggestChosen=false&sc.keyword=Nodejs%20Developer&locT=C&locId=1132348",
+      "confidence": "CONFIDENT"
+    }
+  ]
+}
